@@ -37,23 +37,5 @@ $(document).ready(function() {
 
 	});
 
-	$('#aCV').click(function(e) {
-
-		e.preventDefault();
-
-		$('#aApps').removeClass('selected');
-		$('#aVideogames').removeClass('selected');
-		$('#aCV').removeClass('selected');
-
-		$('#sectionApps').hide(0);
-		$('#sectionVideogames').hide(0, function() {
-
-			$('#sectionCV').show(0);
-			$('#aCV').addClass('selected');
-
-		});
-
-	});
-
 	$('#aVideogames').click();
 });
