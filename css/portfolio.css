@@ -9,12 +9,15 @@ h1 {
 	font-weight: normal;
 	margin: 0;
 }
+
 section {
-	clear: right;
-	float: left;
-	height: 26em;
-	margin-top: 1em;
+	display: block;
+	margin: 2em 1.3em;
 	width: 76%;
+}
+section > h1 {
+	color: #e58415;
+	margin-bottom: 0.5em;
 }
 section ul {
 	list-style: none;
@@ -32,37 +35,36 @@ section ul h1 {
 	background-color: #f0f0f0;
 	color: #777;
 }
+
 footer {
-	clear: both;
-	float: right;
-	margin: 2em 1em 0 0;
-	text-align: right;
+	display: block;
+	margin: 2em 1.3em;
+	text-align: left;
 }
 footer a {
 	text-decoration: none;
 }
 
-#headerOfBody {
-	margin: .5em 1.3em;
-}
-#headerOfBody h1 {
-	letter-spacing: 1em;
-}
-
 nav {
-	clear: left;
-	float: left;
+	display: block;
 	margin: 1em 1.3em;
+}
+nav h1 {
+	display: inline-block;
+	font-size: 1em;
+	padding-right: 1em;
+	text-align: right;
+	width: 7em;
 }
 nav ul {
 	list-style: none;
 	margin: 0 0 1em 0;
 	padding: 0;
 	text-align: right;
-	width: 7.5em;
+	width: 7em;
 }
 nav ul a {
-	color: #777;
+	color: #e58415;
 	display: inline-block;
 	padding-right: 1em;
 	text-decoration: none;
@@ -71,12 +73,10 @@ nav ul a {
 nav ul a:hover {
 	background-color: #f0f0f0;
 }
-nav ul a.selected {
-	background: url('../img/arrow.png') 7.2em .2em no-repeat;
-	color: #e58415;
-	outline: none;
-}
 
-#sectionApps, #sectionVideogames, #sectionCV {
-	display: none;
+#headerOfBody {
+	margin: .5em 1.3em;
+}
+#headerOfBody h1 {
+	letter-spacing: 1em;
 }
