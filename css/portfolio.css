@@ -80,3 +80,7 @@ nav ul a:hover {
 #headerOfBody h1 {
 	letter-spacing: 1em;
 }
+
+#sectionBlogs li img {
+	border: 1px solid #777;
+}
