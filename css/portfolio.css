@@ -1,101 +1,101 @@
 body {
-	color: #777;
-	font-family: 'Gill Sans', sans-serif;
+    color: #777;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 h1 {
-	font-size: 1.2em;
-	font-weight: normal;
-	margin: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0;
 }
 
 /**********************************************************************/
 section {
-	display: block;
-	margin: 2em 1.3em;
-	width: 76%;
+    display: block;
+    margin: 2em 1.3em;
+    width: 76%;
 }
 
 section>h1 {
-	color: #e58415;
-	margin-bottom: 0.5em;
+    color: #e58415;
+    margin-bottom: 0.5em;
 }
 
 section ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 section ul li {
-	display: inline-block;
-	vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
 section ul a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 section ul h1 {
-	background-color: #f0f0f0;
-	color: #777;
+    background-color: #f0f0f0;
+    color: #777;
 }
 
 /**********************************************************************/
 footer {
-	display: block;
-	margin: 2em 1.3em;
-	text-align: left;
+    display: block;
+    margin: 2em 1.3em;
+    text-align: left;
 }
 
 footer a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /**********************************************************************/
 nav {
-	display: block;
-	margin: 1em 1.3em;
+    display: block;
+    margin: 1em 1.3em;
 }
 
 nav h1 {
-	display: inline-block;
-	font-size: 1em;
-	padding-right: 1em;
-	text-align: right;
-	width: 7em;
+    display: inline-block;
+    font-size: 1em;
+    padding-right: 1em;
+    text-align: right;
+    width: 7em;
 }
 
 nav ul {
-	list-style: none;
-	margin: 0 0 1em 0;
-	padding: 0;
-	text-align: right;
-	width: 7em;
+    list-style: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+    text-align: right;
+    width: 7em;
 }
 
 nav ul a {
-	color: #e58415;
-	display: inline-block;
-	padding-right: 1em;
-	text-decoration: none;
-	width: 7em;
+    color: #e58415;
+    display: inline-block;
+    padding-right: 1em;
+    text-decoration: none;
+    width: 7em;
 }
 
 nav ul a:hover {
-	background-color: #f0f0f0;
+    background-color: #f0f0f0;
 }
 
 /**********************************************************************/
 #headerOfBody {
-	margin: .5em 1.3em;
+    margin: .5em 1.3em;
 }
 
 #headerOfBody h1 {
-	letter-spacing: 1em;
+    letter-spacing: 1em;
 }
 
 /**********************************************************************/
 #sectionBlogs li img {
-	border: 1px solid #777;
+    border: 1px solid #777;
 }
